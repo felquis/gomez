@@ -1,0 +1,423 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(100% 100%, #a9ecfc, #19b0df);
+}
+
+.awesome-title {
+    font-family: 'Open Sans';
+    text-align: center;
+    flex: 30;
+
+    display: flex;
+    align-items: center;
+    margin: 0;
+    color: #18A8E1;
+    text-shadow: 1px 1px 0 #CFF1FF;
+}
+
+.gomez-items-wrap {
+    display: flex;
+    flex: 70;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.gomez-item-wrap {
+    width: 142px;
+    height: 192px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gomez {
+    width: 10px;
+    height: 10px;
+    display: block;
+    transform: translate(-500%, -500%); /* OMG, it's magic */
+    background: transparent;
+}
+
+.gomez.yeah {
+    box-shadow:
+            /*
+                Conjuntos de sombras, da esquerda para direita, de cima para baixo (excesão do chapéu)
+            */
+
+            /* linha 1 */
+            10px 0 0 #a3a085,
+            19px 0 0 #e1ced2,
+            29px 0 0 #fff,
+            39px 0 0 #fff,
+            49px 0 0 #fff,
+            59px 0 0 #fff,
+            69px 0 0 #fff,
+            79px 0 0 #fff,
+            89px 0 0 #fff,
+            99px 0 0 #fff,
+            106px 0 0 #fff,
+
+            /* linha 2 */
+            0 10px 0 #a3a085,
+            10px 10px 0 #e1ced2,
+            19px 10px 0 #e1ced2,
+            29px 10px 0 #fff,
+            39px 10px 0 #fff,
+            49px 10px 0 #fff,
+            59px 10px 0 #fff,
+            69px 10px 0 #fff,
+            79px 10px 0 #fff,
+            89px 10px 0 #fff,
+            99px 10px 0 #fff,
+            109px 10px 0 #fff,
+            116px 10px 0 #fff,
+
+            /* linha 3 */
+            0 20px 0 #a3a085,
+            10px 20px 0 #e1ced2,
+            19px 20px 0 #fff,
+            29px 20px 0 #000, /* olho */
+            39px 20px 0 #fff,
+            49px 20px 0 #fff,
+            59px 20px 0 #fff,
+            69px 20px 0 #fff,
+            79px 20px 0 #fff,
+            89px 20px 0 #fff,
+            96px 20px 0 #fff,
+            106px 20px 0 #000, /* olho */
+            116px 20px 0 #fff,
+
+            /* linha 4 */
+            0 30px 0 #a3a085,
+            10px 30px 0 #e1ced2,
+            19px 30px 0 #fff,
+            29px 30px 0 #fff,
+            39px 30px 0 #fff,
+            49px 30px 0 #fff,
+            59px 30px 0 #000,
+            69px 30px 0 #000,
+            79px 30px 0 #000,
+            87px 30px 0 #000,
+            97px 30px 0 #fff,
+            107px 30px 0 #fff,
+            116px 30px 0 #fff,
+
+            /* linha 5 */
+            0 40px 0 #a3a085,
+            10px 40px 0 #e1ced2,
+            19px 40px 0 #fff,
+            29px 40px 0 #fff,
+            39px 40px 0 #fff,
+            49px 40px 0 #fff,
+            59px 40px 0 #c9326e,
+            68px 40px 0 #c9326e,
+            78px 40px 0 #000,
+            87px 40px 0 #000,
+            97px 40px 0 #fff,
+            107px 40px 0 #fff,
+            116px 40px 0 #fff,
+
+            /* linha 6 */
+            0 50px 0 #a3a085,
+            10px 50px 0 #e1ced2,
+            19px 50px 0 #fff,
+            29px 50px 0 #fff,
+            39px 50px 0 #fff,
+            49px 50px 0 #fff,
+            59px 50px 0 #fff,
+            68px 50px 0 #c9326e,
+            78px 50px 0 #000,
+            87px 50px 0 #fff,
+            97px 50px 0 #fff,
+            107px 50px 0 #fff,
+            116px 50px 0 #fff,
+
+            /* linha 7 abaixo da boca */
+            29px 60px 0 #e1ced2,
+            20px 60px 0 #a3a085,
+            29px 60px 0 #e1ced2,
+            39px 60px 0 #fff,
+            49px 60px 0 #fff,
+            59px 60px 0 #fff,
+            69px 60px 0 #fff,
+            79px 60px 0 #fff,
+            87px 60px 0 #fff,
+            97px 60px 0 #fff,
+            107px 60px 0 #fff,
+
+            /* linha 8 pescoço */
+            39px 70px 0 #a3a085,
+            49px 70px 0 #a3a085,
+            59px 70px 0 #e1ced2,
+            68px 70px 0 #fff,
+
+            /* linha 9 braços */
+            10px 80px 0 #a3a085,
+            19px 80px 0 #fff,
+            29px 80px 0 #fff,
+            39px 80px 0 #e1ced2,
+            49px 80px 0 #fff,
+            59px 80px 0 #fff,
+            68px 80px 0 #fff,
+            78px 80px 0 #fff,
+            88px 80px 0 #a3a085,
+            97px 80px 0 #a3a085,
+
+            /* linha 10 */
+            29px 90px 0 #fff,
+            20px 90px 0 #a3a085,
+            29px 90px 0 #fff,
+            39px 90px 0 #fff,
+            49px 90px 0 #fff,
+            59px 90px 0 #fff,
+            69px 90px 0 #fff,
+            78px 90px 0 #fff,
+            88px 90px 0 #a3a085,
+
+            /* linha 11 */
+            29px 100px 0 #a3a085,
+            39px 100px 0 #fff,
+            49px 100px 0 #fff,
+            59px 100px 0 #fff,
+            69px 100px 0 #fff,
+            78px 100px 0 #fff,
+
+            /* linha 12 */
+            29px 110px 0 #a3a085,
+            39px 110px 0 #e1ced2,
+            49px 110px 0 #fff,
+            59px 110px 0 #fff,
+            69px 110px 0 #fff,
+            78px 110px 0 #fff,
+
+            /* linha 13 */
+            29px 120px 0 #a3a085,
+            39px 120px 0 #e1ced2,
+            49px 120px 0 #fff,
+            59px 120px 0 #fff,
+            69px 120px 0 #fff,
+            78px 120px 0 #fff,
+
+            /* linha 14 */
+            29px 130px 0 #a3a085,
+            39px 130px 0 #e1ced2,
+            49px 130px 0 #a3a085,
+            59px 130px 0 #a3a085,
+            69px 130px 0 #e1ced2,
+            78px 130px 0 #a3a085,
+
+            /* linha 15 pés */
+            19px 140px 0 #a3a085,
+            29px 140px 0 #e1ced2,
+            69px 140px 0 #a3a085,
+
+            /* chapéu linha 1 */
+            30px -40px 0 #e89a2e,
+            40px -40px 0 #c0060b,
+            50px -40px 0 #c0060b,
+
+            /* chapéu linha 2 */
+            20px -30px 0 #e89a2e,
+            30px -30px 0 #91000f,
+            40px -30px 0 #c0060b,
+            50px -30px 0 #c0060b,
+
+            /* chapéu linha 3 */
+            30px -20px 0 #91000f,
+            40px -20px 0 #c0060b,
+            50px -20px 0 #c0060b;
+
+}
+
+.gomez.umm {
+    box-shadow:
+            /*
+                Conjuntos de sombras, da esquerda para direita, de cima para baixo (excesão do chapéu)
+            */
+
+            /* linha 1 */
+            10px 0 0 #a3a085,
+            19px 0 0 #e1ced2,
+            29px 0 0 #fff,
+            39px 0 0 #fff,
+            49px 0 0 #fff,
+            59px 0 0 #fff,
+            69px 0 0 #fff,
+            79px 0 0 #fff,
+            89px 0 0 #fff,
+            99px 0 0 #fff,
+            106px 0 0 #fff,
+
+            /* linha 2 */
+            0 10px 0 #a3a085,
+            10px 10px 0 #e1ced2,
+            19px 10px 0 #fff,
+            29px 10px 0 #fff,
+            39px 10px 0 #fff,
+            49px 10px 0 #fff,
+            59px 10px 0 #fff,
+            69px 10px 0 #fff,
+            79px 10px 0 #fff,
+            89px 10px 0 #fff,
+            99px 10px 0 #fff,
+            109px 10px 0 #fff,
+            116px 10px 0 #fff,
+
+            /* linha 3 */
+            0 20px 0 #a3a085,
+            10px 20px 0 #e1ced2,
+            19px 20px 0 #fff,
+            29px 20px 0 #fff,
+            39px 20px 0 #fff,
+            49px 20px 0 #fff,
+            59px 20px 0 #fff,
+            69px 20px 0 #fff,
+            79px 20px 0 #fff,
+            89px 20px 0 #fff,
+            96px 20px 0 #fff,
+            106px 20px 0 #fff, /* olho */
+            116px 20px 0 #fff,
+
+            /* linha 4 */
+            0 30px 0 #a3a085,
+            10px 30px 0 #e1ced2,
+            19px 30px 0 #fff,
+            29px 30px 0 #000, /* olho */
+            39px 30px 0 #fff,
+            49px 30px 0 #fff,
+            59px 30px 0 #fff,
+            69px 30px 0 #fff,
+            79px 30px 0 #fff,
+            87px 30px 0 #fff,
+            97px 30px 0 #fff,
+            107px 30px 0 #000, /* olho */
+            116px 30px 0 #fff,
+
+            /* linha 5 */
+            0 40px 0 #a3a085,
+            10px 40px 0 #e1ced2,
+            19px 40px 0 #fff,
+            29px 40px 0 #fff,
+            39px 40px 0 #fff,
+            49px 40px 0 #fff,
+            59px 40px 0 #fff,
+            68px 40px 0 #fff,
+            78px 40px 0 #fff,
+            87px 40px 0 #fff,
+            97px 40px 0 #fff,
+            107px 40px 0 #fff,
+            116px 40px 0 #fff,
+
+            /* linha 6 */
+            0 50px 0 #a3a085,
+            10px 50px 0 #e1ced2,
+            19px 50px 0 #fff,
+            29px 50px 0 #fff,
+            39px 50px 0 #fff,
+            49px 50px 0 #fff,
+            59px 50px 0 #fff,
+            68px 50px 0 #fff,
+            78px 50px 0 #000, /* boca */
+            87px 50px 0 #fff,
+            97px 50px 0 #fff,
+            107px 50px 0 #fff,
+            116px 50px 0 #fff,
+
+            /* linha 7 */
+            29px 60px 0 #e1ced2,
+            20px 60px 0 #a3a085,
+            29px 60px 0 #e1ced2,
+            39px 60px 0 #fff,
+            49px 60px 0 #fff,
+            59px 60px 0 #fff,
+            69px 60px 0 #fff,
+            79px 60px 0 #fff,
+            87px 60px 0 #fff,
+            97px 60px 0 #fff,
+            107px 60px 0 #fff,
+
+            /* linha 8 pescoço */
+            39px 70px 0 #a3a085,
+            49px 70px 0 #a3a085,
+            59px 70px 0 #e1ced2,
+            68px 70px 0 #fff,
+
+            /* linha 9 */
+            29px 80px 0 #a3a085,
+            39px 80px 0 #e1ced2,
+            49px 80px 0 #fff,
+            59px 80px 0 #fff,
+            68px 80px 0 #fff,
+            78px 80px 0 #fff,
+
+            /* linha 10 */
+            19px 90px 0 #a3a085,
+            29px 90px 0 #fff,
+            39px 90px 0 #fff,
+            49px 90px 0 #fff,
+            59px 90px 0 #fff,
+            68px 90px 0 #fff,
+            78px 90px 0 #fff,
+
+            /* linha 11 */
+            10px 100px 0 #a3a085,
+            19px 100px 0 #fff,
+            29px 100px 0 #a3a085,
+            39px 100px 0 #fff,
+            49px 100px 0 #fff,
+            59px 100px 0 #fff,
+            68px 100px 0 #fff,
+            78px 100px 0 #fff,
+            88px 100px 0 #e1ced2,
+
+            /* linha 12 */
+            29px 110px 0 #a3a085,
+            39px 110px 0 #e1ced2,
+            49px 110px 0 #fff,
+            59px 110px 0 #fff,
+            69px 110px 0 #fff,
+            78px 110px 0 #fff,
+
+            /* linha 13 */
+            29px 120px 0 #a3a085,
+            39px 120px 0 #e1ced2,
+            49px 120px 0 #e1ced2,
+            59px 120px 0 #e1ced2,
+            69px 120px 0 #fff,
+            78px 120px 0 #fff,
+
+            /* linha 14 */
+            29px 130px 0 #a3a085,
+            39px 130px 0 #e1ced2,
+            69px 130px 0 #a3a085,
+            78px 130px 0 #e1ced2,
+
+            /* linha 15 */
+            29px 140px 0 #a3a085,
+            78px 140px 0 #a3a085,
+
+            /* chapéu linha 1 */
+            30px -30px 0 #e89a2e,
+            40px -30px 0 #c0060b,
+            50px -30px 0 #c0060b,
+
+            /* chapéu linha 2 */
+            20px -20px 0 #e89a2e,
+            30px -20px 0 #91000f,
+            40px -20px 0 #c0060b,
+            50px -20px 0 #c0060b,
+
+            /* chapéu linha 3 */
+            30px -10px 0 #91000f,
+            40px -10px 0 #c0060b,
+            50px -10px 0 #c0060b;
+
+}
