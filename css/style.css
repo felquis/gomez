@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Press+Start+2P);
+
 html, body {
     height: 100%;
     margin: 0;
@@ -12,14 +14,14 @@ body {
 }
 
 .awesome-title {
-    font-family: 'Open Sans';
+    font-family: 'Press Start 2P';
     text-align: center;
     flex: 30;
 
     display: flex;
     align-items: center;
     margin: 0;
-    color: #18A8E1;
+    color: #000;
     text-shadow: 1px 1px 0 #CFF1FF;
 }
 
